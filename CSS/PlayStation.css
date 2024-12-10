@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100px;
+    
+    
+
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 1000px;
+    margin: 0px;
+}
+
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: sour gummy;
+    
+    
+    
+}
+.card .front{
+    transform: perspective(600px); rotate: y(0deg);
+    box-shadow: 0px 5px 10px black;
+}
+
+.card .front .kirby{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card  .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: pink;
+    background: black;
+    text-align: center;
+}
+
+.card .back{
+    transform: perspective(600px) rotatey(180deg);
+    background: gray;
+    padding: 15px;
+    color: rgba(255, 0, 0, 0.356);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.card .back .link{
+    border-top: solid 1px red;
+    height: 50px;
+    line-height: 50px;
+    color: aquamarine;
+}
+
+.card .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p{
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.card:hover .front{
+    transform: perspective(600px) rotate(180deg);
+}
+.card:hover .back{
+    transform: perspective(600px) rotate(360deg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color:  #003C8F;
+    font-size: 50px;
+    
+
+}
+
+.nintendo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.inicio {
+    color: white;
+    font-family:sour gummy;
+    transition: 0.2 ease;
+    cursor: pointer;
+    
+}
+.inicio:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+.z{
+    position: relative;
+    width: 400px;
+    height: 1000px;
+    margin: 0px;
+}
+
+.z .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: sour gummy;
+    
+    
+    
+}
+.z .front{
+    transform: perspective(600px); rotate: y(0deg);
+    box-shadow: 0px 5px 10px black;
+}
+
+.z .front .zelda{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.z  .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: pink;
+    background: black;
+    text-align: center;
+}
+
+.z .back{
+    transform: perspective(600px) rotatey(180deg);
+    background:rgb(34, 116, 13);
+    padding: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.z .back .link{
+    border-top: solid 1px red;
+    height: 50px;
+    line-height: 50px;
+    color: aquamarine;
+}
+
+.z .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.z .back p{
+    letter-spacing: 1px;
+    text-align: justify;
+    color: black;
+}
+.z:hover .front{
+    transform: perspective(600px) rotate(180deg);
+}
+.z:hover .back{
+    transform: perspective(600px) rotate(360deg);
+}
+
+.z .front .zelda{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a{
+    position: relative;
+    width: 400px;
+    height: 1000px;
+    margin: 0px;
+}
+
+.a .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: sour gummy;
+    
+    
+    
+}
+.a .front{
+    transform: perspective(600px); rotate: y(0deg);
+    box-shadow: 0px 5px 10px black;
+}
+
+.a .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.a  .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: pink;
+    background: black;
+    text-align: center;
+}
+
+.a .back{
+    transform: perspective(600px) rotatey(180deg);
+    background: rgb(73, 4, 4);
+    padding: 15px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.a .back .link{
+    border-top: solid 1px red;
+    height: 50px;
+    line-height: 50px;
+    color: aquamarine;
+}
+
+.a .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.a .back p{
+    letter-spacing: 1px;
+    text-align: justify;
+    color: black;
+}
+.a:hover .front{
+    transform: perspective(600px) rotate(180deg);
+}
+.a:hover .back{
+    transform: perspective(600px) rotate(360deg);
+}
+
+.a .front .animal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.m{
+    position: relative;
+    width: 350px;
+    height: 1000px;
+    margin: 0px;
+}
+
+.m .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: sour gummy;
+    
+    
+    
+}
+.m .front{
+    transform: perspective(600px); rotate: y(0deg);
+    box-shadow: 0px 5px 10px black;
+}
+
+.m .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.m  .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: pink;
+    background: black;
+    text-align: center;
+}
+
+.m .back{
+    transform: perspective(600px) rotatey(180deg);
+    background: white;
+    padding: 15px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.m .back .link{
+    border-top: solid 1px black;
+    height: 50px;
+    line-height: 50px;
+    color: aquamarine;
+}
+
+.m .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color:red;
+}
+
+.m .back p{
+    letter-spacing: 1px;
+    text-align: justify;
+    color: red;
+}
+.m:hover .front{
+    transform: perspective(600px) rotate(180deg);
+}
+.m:hover .back{
+    transform: perspective(600px) rotate(360deg);
+}
+
+.m .front .malio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pok{
+    position: relative;
+    width: 350px;
+    height: 1000px;
+    margin: 0px;
+}
+
+.pok .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: sour gummy;
+    
+    
+    
+}
+.pok .front{
+    transform: perspective(600px); rotate: y(0deg);
+    box-shadow: 0px 5px 10px black;
+}
+
+.pok .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pok  .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: pink;
+    background: black;
+    text-align: center;
+}
+
+.pok .back{
+    transform: perspective(600px) rotatey(180deg);
+    background: beige;
+    padding: 15px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.pok .back .link{
+    border-top: solid 1px black;
+    height: 50px;
+    line-height: 50px;
+    color: aquamarine;
+}
+
+.pok .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color:black;
+}
+
+.pok .back p{
+    letter-spacing: 1px;
+    text-align: justify;
+    color: black;
+}
+.pok:hover .front{
+    transform: perspective(600px) rotate(180deg);
+}
+.pok:hover .back{
+    transform: perspective(600px) rotate(360deg);
+}
+
+.pok .front .pokle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+h1{
+    color:black;
+    font-family: Montserrat;
+    display: flex;
+}
+h2{
+    color:green;
+    display: flex;
+}
+h3{
+    color:green;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+}
+h4{
+    color:green;
+    font-size: 30px;
+    display: flex;
+}
+h5{
+    color:green;
+    display: flex;
+}
+p{
+    font-family:Montserrat;
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+}
+h1{
+    background:violet;
+    height: 50px;
+    width: 1925px;
+    padding: 1px;
+    margin: 0;
+    display: flex;
+}
+a{
+    background: red;
+    padding: 10px;
+    font-family: Montserrat;
+    margin: 15px;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+<h1>
+PixelHeaven
+</h1>
+<nav>
+<ul>
+    <li>
+        <a href="Nintendo.html">Nintendo</a></li>
+    
+    <li>
+        <a href="PlayStation.html">PlayStation</a>
+    </li>
+    <li>
+        <a href="Xbox.html">Xbox</a>
+    </li>
+    <li>
+        <a href="Todas las Plataformas.html">Todas las plataformas</a>
+    </li>
+    <li>
+        <a href="Contacto.html">Contacto</a>
+    </li>
+</ul>
+</nav>
+<h3>
+Descubre un nuevo mundo
+</h3>
+<h4>
+¿Que es PixelHeaven?
+</h4>
+<p>
+Somos una plataforma que recopila los mejores videojuegos de las ultimas decadas,desde los clásicos que definieron el gaming hasta los éxitos más recientes. Explora nuestra selección curada para cada plataforma y revive la emoción de los videojuegos que hicieron historia.
+
+</p>
+
